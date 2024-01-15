@@ -10,4 +10,5 @@ git status \\看狀態是怎麼樣
 git rm --cached <file> \\回覆上一個狀態
 
 git commit -m "xxxx" \\commit成一個新版本  xxx任意字
+xxx
 
