@@ -3,12 +3,23 @@
 
 git init \\指定資料夾為儲存庫
 
-git add . \\準備變成一個版本
+git add . \\全部準備變成一個版本
+git add <file>\\單獨一個檔準備變成一個新的版本
+
 
 git status \\看狀態是怎麼樣
 
 git rm --cached <file> \\回覆上一個狀態
 
 git commit -m "xxxx" \\commit成一個新版本  xxx任意字
-xxx
+
+git commit //進入到vim介面，vim為vi進階版，指電腦無GUI介面時，提供可編輯文字介面之方法
+:q!可以離開此介面
+
+
+gitk \\可以看到此儲存庫的版本，編輯人，編輯者，版控碼，差別
+也可以直接用VS code，且若直接邊即為直接儲存在最新的版本裡面
+
+
+
 
