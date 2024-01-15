@@ -1,0 +1,13 @@
+使用git指令在該資料夾右鍵點選  "open git bash"
+檔名要中文
+
+git init \\指定資料夾為儲存庫
+
+git add . \\準備變成一個版本
+
+git status \\看狀態是怎麼樣
+
+git rm --cached <file> \\回覆上一個狀態
+
+git commit -m "xxxx" \\commit成一個新版本  xxx任意字
+
