@@ -20,6 +20,30 @@ git commit //進入到vim介面，vim為vi進階版，指電腦無GUI介面時�
 gitk \\可以看到此儲存庫的版本，編輯人，編輯者，版控碼，差別
 也可以直接用VS code，且若直接邊即為直接儲存在最新的版本裡面
 
+git log\\可以知道版本
+
+git diff <sha> <sha> \\可以知道版本之間改動差異  sha 版本n的sha碼 可以只複製幾碼
+
+git reset --hard <sha> 
+\\可以回到指定版本(時光機)，但是此時用git log只會顯示此版本創建時之資訊(包含以前)
+如果是跳版本，則會有版本sha碼不知道之情形
+\\會清除未commit的動作，所以使用之前要git add .加上git commit -m "xxxx"
+
+git reflog \\以上帝視角看log情形
+
+
+git branch \\查看樹狀圖，多人協作使用
+
+git branch <分支名稱>\\可以創建新的分支
+
+git checkout <分支名稱>\\切換到某分支
+
+
+
+
+
+
+
 xxx
 
 
